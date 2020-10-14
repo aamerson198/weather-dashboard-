@@ -15,7 +15,7 @@ $(document).ready(function () {
   function kToF(temp) {
     return (temp - 273.15) * 1.8 + 32;
   }
-
+  var currentdate = new Date();
   function generateDate(modifier) {
     var currentdate = new Date();
     return (
