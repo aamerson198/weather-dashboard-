@@ -1,45 +1,12 @@
-# 06 Server-Side APIs: Weather Dashboard
+This app works by utilizing the data compiled and stored in a third party API called Open Weather.
 
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+The user is able to enter the city for which they want to know the weather and they can then pull up a five day forecast that includes information like the UV Index, the temperature, and the humidity for that city.
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
+The user should then be able to see a list of the cities that they've searched for in the past in locally stored history.
 
-## User Story
+Here is the URL of the completed site:
+https://aamerson198.github.io/weather-dashboard-/
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+![Image of](https://github.com/aamerson198/weather-dashboard-/blob/main/Images%20/weatherCode.png)
 
-## Acceptance Criteria
-
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
-```
-
-The following image demonstrates the application functionality:
-
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the deployed application.
-
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
+![Image of](https://github.com/aamerson198/weather-dashboard-/blob/main/Images%20/weatherSite.png)
