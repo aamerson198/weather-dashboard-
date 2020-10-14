@@ -1,21 +1,63 @@
-/* .navbar-custom {
-  background-color: #220ec3;
+#main {
+  background-color: red;
 }
-/* Modify brand and text color */
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: #f9f9f9;
-  font-size: larger;
+#header {
+  background-color: rgb(7, 14, 109);
+  color: whitesmoke;
+  padding: 50px;
   text-align: center;
-  float: none; */
-/* } */
-
-.navbar-brand{
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 30px;
 }
-h5{
-  justify-content: center;
+
+#search-city {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+button {
+  background-color: #1e90ff;
+}
+
+input {
+  height: 10px;
+}
+
+#five-day {
+  margin: 5px;
+  border-color: black;
+}
+
+#city-button {
+  background-color: lightslategray;
+  color: white;
+  border-color: dark;
+  border-radius: 30%;
+  padding: 10px;
+  display: block;
+  margin: 10%;
+}
+
+.city {
+  font-size: 28px;
+  font-weight: bolder;
+  display: inline !important;
+}
+
+.current-day {
+  display: inline !important;
+  margin: 8%;
+}
+
+#five-day {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#card {
+  background-color: blue;
+  color: white;
+  margin: 5%;
+
+  display: inline-block;
 }
