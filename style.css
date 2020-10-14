@@ -1,0 +1,21 @@
+/* .navbar-custom {
+  background-color: #220ec3;
+}
+/* Modify brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #f9f9f9;
+  font-size: larger;
+  text-align: center;
+  float: none; */
+/* } */
+
+.navbar-brand{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+h5{
+  justify-content: center;
+}
